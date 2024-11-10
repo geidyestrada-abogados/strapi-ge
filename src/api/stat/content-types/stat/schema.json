@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "stats",
+  "info": {
+    "singularName": "stat",
+    "pluralName": "stats",
+    "displayName": "Stat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Stat1": {
+      "type": "string"
+    },
+    "Stat2": {
+      "type": "string"
+    },
+    "Stat3": {
+      "type": "string"
+    },
+    "Stat4": {
+      "type": "string"
+    },
+    "Stat1n": {
+      "type": "string"
+    },
+    "Stat2n": {
+      "type": "string"
+    },
+    "Stat3n": {
+      "type": "string"
+    },
+    "Stat4n": {
+      "type": "string"
+    }
+  }
+}
