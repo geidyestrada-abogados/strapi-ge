@@ -45,7 +45,8 @@ module.exports = ({ env }) => {
     sqlite: {
       connection: {
         //filename: env('DATABASE_FILENAME', './database/data.db'),
-        filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.database/data.db')),
+        //filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.database/data.db')),
+        filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.data/gea-strapi.db')),
       },
       useNullAsDefault: true,
     },
