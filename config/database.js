@@ -47,7 +47,7 @@ module.exports = ({ env }) => {
         //filename: env('DATABASE_FILENAME', './database/data.db'),
         //filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.database/data.db')),
         filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.data/gea-strapi.db')),
-        console.log('database en config/database.js:', dbPath); // Imprime la ruta
+        console.log('Database Path:', dbPath); // Este log está bien.
       },
       useNullAsDefault: true,
     },
