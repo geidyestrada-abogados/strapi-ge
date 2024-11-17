@@ -32,6 +32,16 @@
     },
     "Final": {
       "type": "text"
+    },
+    "Geidypic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
