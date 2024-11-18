@@ -4,7 +4,8 @@
   "info": {
     "singularName": "office",
     "pluralName": "offices",
-    "displayName": "Office"
+    "displayName": "Office",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,16 @@
     },
     "Item4": {
       "type": "text"
+    },
+    "Office": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
