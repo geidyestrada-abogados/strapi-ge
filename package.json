@@ -10,7 +10,7 @@
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "develop": "strapi develop",
-    "build": "strapi build"
+    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
