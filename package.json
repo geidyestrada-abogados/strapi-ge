@@ -8,9 +8,9 @@
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
-    "start": "strapi start",
-    "develop": "strapi develop",
-    "build": "strapi build",
+    "start": "npx strapi start",
+    "develop": "npx strapi develop",
+    "build": "npx strapi build"
     "strapi": "strapi"
   },
   "dependencies": {
