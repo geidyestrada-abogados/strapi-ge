@@ -9,6 +9,8 @@
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
+    "develop": "strapi develop",
+    "build": "strapi build"
     "strapi": "strapi"
   },
   "dependencies": {
