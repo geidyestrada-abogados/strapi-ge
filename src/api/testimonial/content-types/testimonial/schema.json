@@ -1,0 +1,122 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Intro": {
+      "type": "text"
+    },
+    "Testimonial_1": {
+      "type": "text"
+    },
+    "Testimonial_2": {
+      "type": "text"
+    },
+    "Testimonial_3": {
+      "type": "text"
+    },
+    "Testimonial_4": {
+      "type": "text"
+    },
+    "Testimonial_5": {
+      "type": "text"
+    },
+    "Name_1": {
+      "type": "string"
+    },
+    "Job_1": {
+      "type": "string"
+    },
+    "Name_2": {
+      "type": "string"
+    },
+    "Job_2": {
+      "type": "string"
+    },
+    "Name_3": {
+      "type": "string"
+    },
+    "Job_3": {
+      "type": "string"
+    },
+    "Name_4": {
+      "type": "string"
+    },
+    "Job_4": {
+      "type": "string"
+    },
+    "Name_5": {
+      "type": "string"
+    },
+    "Job_5": {
+      "type": "string"
+    },
+    "Pic_1": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pic_2": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pic_3": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pic_4": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pic_5": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
