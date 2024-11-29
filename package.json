@@ -10,7 +10,7 @@
     "seed:example": "node ./scripts/seed.js",
     "start": "npx strapi start",
     "develop": "npx strapi develop",
-    "build": "npx strapi build"
+    "build": "npx strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
