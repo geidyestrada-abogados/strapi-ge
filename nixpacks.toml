@@ -1,2 +1,10 @@
 [phases]
-install = "npm install --legacy-peer-deps"
+[phases.install]
+cmds = ["npm install --legacy-peer-deps"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[phases.start]
+cmds = ["npm run start"]
+
