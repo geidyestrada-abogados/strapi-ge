@@ -1,8 +1,11 @@
+//module.exports = () => ({});
+
 module.exports = ({ env }) => ({
-  'users-permissions': {
+  upload: {
     config: {
-      jwtSecret: env('JWT_SECRET'),
+      provider: "local",
+      sizeLimit: 1000000, // tamaño límite para archivos en bytes
+      providerOptions: {},
     },
   },
 });
-

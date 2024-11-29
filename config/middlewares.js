@@ -3,16 +3,6 @@ module.exports = [
   'strapi::errors',
   'strapi::security',
   'strapi::cors',
-  {
-    name: 'strapi::cors',
-    config: {
-      origin: ['*'], // Permite cualquier origen (menos seguro)
-      // Alternativamente, permite solo tu dominio en GitHub Pages:
-      // origin: ['https://geidyestrada-abogados.github.io'],
-      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-    },
-  },
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',

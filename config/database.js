@@ -44,17 +44,11 @@ module.exports = ({ env }) => {
     },
     sqlite: {
       connection: {
-        filename: path.join(__dirname, '..', env('DATABASE_FILENAME', './data/gea-strapi.db')),
+        filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.tmp/data.db')),
       },
       useNullAsDefault: true,
     },
   };
-
-  // Log para depuración
-  if (client === 'sqlite') {
-    const dbPath = connections.sqlite.connection.filename;
-    console.log('Database Path:', dbPath);
-  }
 
   return {
     connection: {
